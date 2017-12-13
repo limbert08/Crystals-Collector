@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/mazda-vision.jpg");
+    background-repeat: repeat;
+}
+
+
+div {
+    float: left;
+}
+
+#screen {
+    float: left;
+    overflow: auto;
+}
+
+
+#title {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: brown;
+}
+
+#div-rules {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: blue;
+    background-color: beige;
+}
+
+#div-random {
+    font-size: 250%;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    color: blue;
+    background-color: green;
+}
+
+#div-scores {
+    font-size: 300%;
+    width: 200px;
+    height: 100px;
+
+    padding: 5px;
+    color: blue;
+    background-color: aqua;
+}
+
+
+#div-win {
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: green;
+}
+
+#score-title {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: right;
+}
+
+.crystals-button {
+    display: inline;
+}
+
+.crystal-img {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border: solid;
+    border-color: aqua;
+    cursor: crosshair;
+    align-content: center;
+}
