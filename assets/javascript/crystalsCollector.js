@@ -32,7 +32,8 @@ $(document).ready(function() {
     }
     // random number is limited from 19 to 120
     function randomNumGen() {
-        return Math.floor(Math.random() * 120) + 19;
+        //return Math.floor(Math.random() * 120) + 19; //Math.floor((Math.random() * 12) + 1)
+        return Math.floor((Math.random() * 120) + 19) 
     }
     // reset
     function setGame() {
